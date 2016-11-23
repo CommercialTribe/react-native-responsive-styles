@@ -23,8 +23,7 @@
   "author": "Jani Eväkallio",
   "license": "MIT",
   "scripts": {
-    "eslint": "eslint index.js lib",
-    "eslint-fix": "eslint index.js lib --fix",
+    "lint": "eslint index.js lib",
     "flow": "flow check",
     "test": "npm run lint && npm run flow"
   },
@@ -33,13 +32,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^6.0.2",
-    "eslint": "^3.10.2",
+    "eslint": "^2.10.2",
+    "eslint-config-formidable": "^2.0.1",
     "eslint-plugin-babel": "^3.2.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-react": "^6.7.1",
-    "eslint-plugin-react-native": "^2.1.0",
-    "flow-bin": "^0.32.0",
+    "eslint-plugin-filenames": "^1.1.0",
     "eslint-plugin-flowtype": "^2.19.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-react": "^6.0.0",
+    "flow-bin": "^0.32.0",
     "react": "15.3.2",
     "react-native": "0.34.0"
   }

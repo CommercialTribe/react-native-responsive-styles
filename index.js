@@ -8,7 +8,7 @@ import createResponsiveStyleSheet from './lib/createResponsiveStyleSheet';
 
 const wrap = createResponsiveComponent;
 
-export default {
+module.exports = {
 
   // wrap native components
 
