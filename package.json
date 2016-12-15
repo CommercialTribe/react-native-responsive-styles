@@ -28,7 +28,7 @@
     "test": "npm run lint && npm run flow"
   },
   "dependencies": {
-    "react-native-orientation-listener": "git+https://github.com/CommercialTribe/react-native-orientation-listener.git#26009fee24c24c5d15308953f52797d69e6237cc"
+    "react-native-orientation-listener": "git+https://github.com/CommercialTribe/react-native-orientation-listener.git#350257fa13ec02024a43d1937dee14eaafb8b107"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.2",
